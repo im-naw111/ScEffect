@@ -64,7 +64,7 @@ export const Layout = () => {
               href="https://tympanus.net/codrops/?p=90674"
               className="md:text-center"
             >
-              ( Article )
+              ( Artivccle )
             </Link>
 
             
