@@ -52,7 +52,7 @@ export const Layout = () => {
       }
     >
       <div className="grid h-full w-full grid-cols-6 grid-rows-6 uppercase">
-        <div
+      <!--  <div
           className="h-10 w-full"
           style={{
             gridColumn: '1/8',
@@ -100,7 +100,7 @@ export const Layout = () => {
             </div>
           </div>
         </div>
-
+-->
         <div
           className="text-xs w-full sm:w-96 opacity-65 frame"
           style={{
