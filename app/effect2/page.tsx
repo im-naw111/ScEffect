@@ -158,7 +158,7 @@ const Html = () => {
           <div className=" text-center text-xs md:text-xl xl:text-2xl 2xl:text-3xl mt-2 overflow-hidden">
             <div data-desc>
               <div></div>
-              
+              <div></div>
               <div>www.nawawow.site</div>
             </div>
           </div>
