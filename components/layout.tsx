@@ -66,30 +66,7 @@ export const Layout = () => {
             >
               ( Article )
             </Link>
-<div className="md:justify-items-end">
-              <div className="flex space-x-4">
-                {[
-                  {
-                    href: '/effect1/',
-                    name: 'Effect/1',
-                  },
-                  {
-                    href: '/effect2/',
-                    name: 'Effect/2',
-                  },
-                ].map((item, index) => {
-                  return (
-                    <Link
-                      className={pathname === item.href ? 'underline' : ''}
-                      key={index}
-                      href={item.href}
-                    >
-                      {item.name}
-                    </Link>
-                  );
-                })}
-              </div>
-            </div>
+
             
           </div>
         </div>
