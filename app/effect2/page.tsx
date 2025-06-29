@@ -145,7 +145,7 @@ const Html = () => {
             }}
           >
             <div className="flex space-x-2 lg:space-x-6 overflow-hidden">
-              {'Neon Horizon'.split(' ').map((word, index) => {
+              {'Nawawow'.split(' ').map((word, index) => {
                 return (
                   <div data-title key={index}>
                     {word}
@@ -157,8 +157,8 @@ const Html = () => {
 
           <div className=" text-center text-xs md:text-xl xl:text-2xl 2xl:text-3xl mt-2 overflow-hidden">
             <div data-desc>
-              <div>A city consumed by light and shadow,</div>
-              <div>where one endless road leads to an uncertain future.</div>
+              <div>Welcome to my site :V</div>
+              <div>www.nawawow.site</div>
             </div>
           </div>
         </div>
