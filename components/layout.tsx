@@ -60,7 +60,7 @@ export const Layout = () => {
         >
           <div className="flex items-center space-y-2 flex-col md:grid grid-cols-3">
             <Link target="_blank" href={'https://tympanus.net/codrops/demos/'}>
-              ( All demos )
+              ( All demoddddds )
             </Link>
 
             <Link
