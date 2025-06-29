@@ -73,7 +73,6 @@ export const Layout = () => {
             
           </div>
         </div>
--->
         <div
           className="text-xs w-full sm:w-96 opacity-65 frame"
           style={{
