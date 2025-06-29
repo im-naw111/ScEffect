@@ -52,7 +52,7 @@ export const Layout = () => {
       }
     >
       <div className="grid h-full w-full grid-cols-6 grid-rows-6 uppercase">
-      <!--  <div
+       <div
           className="h-10 w-full"
           style={{
             gridColumn: '1/8',
@@ -70,34 +70,7 @@ export const Layout = () => {
               ( Article )
             </Link>
 
-            <div className="md:justify-items-end">
-              <div className="flex space-x-4">
-                {[
-                  {
-                    href: '/effect1/',
-                    name: 'Effect/1',
-                  },
-                  {
-                    href: '/effect2/',
-                    name: 'Effect/2',
-                  },
-                  {
-                    href: '/effect3/',
-                    name: 'Effect/3',
-                  },
-                ].map((item, index) => {
-                  return (
-                    <Link
-                      className={pathname === item.href ? 'underline' : ''}
-                      key={index}
-                      href={item.href}
-                    >
-                      {item.name}
-                    </Link>
-                  );
-                })}
-              </div>
-            </div>
+            
           </div>
         </div>
 -->
