@@ -60,13 +60,7 @@ export const Layout = () => {
         >
           <div className="flex items-center space-y-2 flex-col md:grid grid-cols-3">
           
-            <Link
-              href="https://tympanus.net/codrops/?p=90674"
-              className="md:text-center"
-            >
-              ( Artivccle )
-            </Link>
-
+            
             <div className="md:justify-items-end">
               <div className="flex space-x-4">
                 {[
