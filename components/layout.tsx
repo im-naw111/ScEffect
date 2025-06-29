@@ -80,10 +80,6 @@ export const Layout = () => {
                     href: '/effect2/',
                     name: 'Effect/2',
                   },
-                  {
-                    href: '/effect3/',
-                    name: 'Effect/3',
-                  },
                 ].map((item, index) => {
                   return (
                     <Link
