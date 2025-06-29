@@ -67,7 +67,27 @@ export const Layout = () => {
               ( Artivccle )
             </Link>
 
-            
+            <div className="md:justify-items-end">
+              <div className="flex space-x-4">
+                {[
+                  
+                  {
+                    href: '/effect3/',
+                    name: 'Effect/3',
+                  },
+                ].map((item, index) => {
+                  return (
+                    <Link
+                      className={pathname === item.href ? 'underline' : ''}
+                      key={index}
+                      href={item.href}
+                    >
+                      {item.name}
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
         <div
