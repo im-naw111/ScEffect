@@ -156,8 +156,9 @@ const Html = () => {
           </div>
 
           <div className=" text-center text-xs md:text-xl xl:text-2xl 2xl:text-3xl mt-2 overflow-hidden">
-            <div data-desc>           
-              <div>www.nawawow.site</div>
+            <div data-desc>
+              <div>A city consumed by light and shadow,</div>
+              <div>where one endless road leads to an uncertain future.</div>
             </div>
           </div>
         </div>
