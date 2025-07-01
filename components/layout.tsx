@@ -99,12 +99,7 @@ export const Layout = () => {
             gridColumn: '1/4',
           }}
         >
-          <Link
-            href={'https://github.com/d3adrabbit/ScanningEffectWithDepthMap'}
-            target="_blank"
-          >
-            Github
-          </Link>
+          
 
           <div className="space-x-2">
             {tags.map((item, index) => {
