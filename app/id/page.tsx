@@ -157,7 +157,7 @@ const Html = () => {
 
           <div className=" text-center text-xs md:text-xl xl:text-2xl 2xl:text-3xl mt-2 overflow-hidden">
             <div data-desc>
-              <div>⚡ We are unstoppable ⚡ </div>
+              <div>✆ 0812-2019-2019</div>
               </div>
           </div>
         </div>
