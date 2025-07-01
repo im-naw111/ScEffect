@@ -72,7 +72,7 @@ export const Layout = () => {
                   
                   {
                     href: '/effect3/',
-                    name: 'Effect/3',
+                    name: '',
                   },
                 ].map((item, index) => {
                   return (
@@ -81,7 +81,7 @@ export const Layout = () => {
                       key={index}
                       href={item.href}
                     >
-                      
+                    {item.name}  
                     </Link>
                   );
                 })}
