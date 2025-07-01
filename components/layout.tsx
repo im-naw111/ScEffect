@@ -64,7 +64,7 @@ export const Layout = () => {
               href="https://wa.me/message/J5DTUV52KNV4G1"
               className="md:text-center"
             >
-              ✆ h0812-2019-2019
+              ✆ 0812-2019-2019
             </Link>
             <div className="md:justify-items-end">
               <div className="flex space-x-4">
