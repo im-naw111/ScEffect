@@ -157,7 +157,7 @@ const Html = () => {
 
           <div className=" text-center text-xs md:text-xl xl:text-2xl 2xl:text-3xl mt-2 overflow-hidden">
             <div data-desc>
-              <div>We are unstoppable ⚡ besenang senanglah dalam dunia maya dan dunia nyata kita butuh hiburan bukan tekanan hidup hanya sekali bersenang senanglah dengan waktu yang ada tapi ingat jika ada kehidupan pasti ada kematian dan sama halnya perbuatan pasti ada balasan</div>
+              <div>We vare unstoppable ⚡ besenang senanglah dalam dunia maya dan dunia nyata kita butuh hiburan bukan tekanan hidup hanya sekali bersenang senanglah dengan waktu yang ada tapi ingat jika ada kehidupan pasti ada kematian dan sama halnya perbuatan pasti ada balasan</div>
                 </div>
           </div>
         </div>
