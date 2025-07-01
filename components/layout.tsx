@@ -42,7 +42,7 @@ const Link = ({
 };
 
 export const Layout = () => {
- /* const pathname = usePathname();*/
+  const pathname = usePathname();
 
   return (
     <div
@@ -66,7 +66,27 @@ export const Layout = () => {
             >
               ( ✆ h0812-2019-2019 )
             </Link>
-            
+            <div className="md:justify-items-end">
+              <div className="flex space-x-4">
+                {[
+                  
+                 /* {
+                    href: '/effect3/',
+                    name: 'Effect/3',
+                  },*/
+                ].map((item, index) => {
+                  return (
+                    <Link
+                      className={pathname === item.href ? 'underline' : ''}
+                      key={index}
+                      href={item.href}
+                    >
+                      {item.name}
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
         <div
