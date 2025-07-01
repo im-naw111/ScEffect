@@ -24,10 +24,7 @@ export default function RootLayout({
       <body className="text-white">
         <Layout />
         {children}
-        <Script
-          src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"
-          strategy="afterInteractive"
-        />
+        
       </body>
     </html>
   );
