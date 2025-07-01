@@ -155,7 +155,9 @@ const Html = () => {
             </div>
           </div>
 
-          <div className=" text-center text-xs md:text-xl xl:text-2xl 2xl:text-3xl mt-2 overflow-hidden">
+          <div style={{
+              ...tomorrow.style,
+            }} className=" text-center text-xs md:text-xl xl:text-2xl 2xl:text-3xl mt-2 overflow-hidden">
             <div data-desc>
               <div>✆ 0812-2019-2019</div>
               </div>
