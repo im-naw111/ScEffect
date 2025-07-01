@@ -64,16 +64,16 @@ export const Layout = () => {
               href="https://wa.me/message/J5DTUV52KNV4G1"
               className="md:text-center"
             >
-              ( ✆ h0812-2019-2019 )
+              ✆ h0812-2019-2019
             </Link>
             <div className="md:justify-items-end">
               <div className="flex space-x-4">
                 {[
                   
-                 /* {
+                  {
                     href: '/effect3/',
                     name: 'Effect/3',
-                  },*/
+                  },
                 ].map((item, index) => {
                   return (
                     <Link
@@ -81,7 +81,7 @@ export const Layout = () => {
                       key={index}
                       href={item.href}
                     >
-                      {item.name}
+                      
                     </Link>
                   );
                 })}
