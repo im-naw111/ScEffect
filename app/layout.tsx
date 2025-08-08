@@ -4,8 +4,8 @@ import './globals.css';
 import { Layout } from '@/components/layout';
 
 export const metadata: Metadata = {
-  title: 'Nawawow Site',
-  description: 'www.nawawow.site',
+  title: 'MR. NAWAWOW',
+  description: '✆ 0812-2019-2019',
 };
 
 export default function RootLayout({
@@ -16,10 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <Script
-          src="//tympanus.net/codrops/adpacks/analytics.js"
-          strategy="beforeInteractive"
-        />  
+      
       </head>
       <body className="text-white">
         <Layout />
