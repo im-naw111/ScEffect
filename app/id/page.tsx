@@ -145,7 +145,7 @@ const Html = () => {
             }}
           >
             <div className="flex space-x-2 lg:space-x-6 overflow-hidden">
-              {'nawawow site'.split(' ').map((word, index) => {
+              {'zero nawawow'.split(' ').map((word, index) => {
                 return (
                   <div data-title key={index}>
                     {word}
