@@ -16,7 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      
+      <Script
+          src="//tympanus.net/codrops/adpacks/analytics.js"
+          strategy="beforeInteractive"
+        />  
       </head>
       <body className="text-white">
         <Layout />
