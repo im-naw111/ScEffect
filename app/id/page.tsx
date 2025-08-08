@@ -145,7 +145,7 @@ const Html = () => {
             }}
           >
             <div className="flex space-x-2 lg:space-x-6 overflow-hidden">
-              {'zero nawawow'.split(' ').map((word, index) => {
+              {'the nawawow'.split(' ').map((word, index) => {
                 return (
                   <div data-title key={index}>
                     {word}
@@ -159,6 +159,8 @@ const Html = () => {
               ...tomorrow.style,
             }} className=" text-center text-xs md:text-xl xl:text-2xl 2xl:text-3xl mt-2 overflow-hidden">
             <div data-desc>
+              <div>Life moves pretty fast</div>
+             
               <div>✆ 0812-2019-2019</div>
               </div>
           </div>
