@@ -4,7 +4,7 @@ import './globals.css';
 import { Layout } from '@/components/layout';
 
 export const metadata: Metadata = {
-  title: 'MR. NAWAWOW',
+  title: '𝗜𝗺𝗮𝗺 𝘕𝘢𝘸𝘢𝘸𝘪',
   description: '✆ 0812-2019-2019',
 };
 
