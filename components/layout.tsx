@@ -119,8 +119,8 @@ export const Layout = () => {
             gridColumn: '7/8',
           }}
         >
-          <Link href={'https://x.com/deadrabbbbit'} target="_blank">
-            Made by deadrabbbbit
+          <Link href={'#'} target="_blank">
+            Made by Nawawow
           </Link>
         </div>
       </div>
