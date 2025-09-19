@@ -131,7 +131,7 @@ const Html = () => {
   return (
     <div>
       <div
-        className="h-svh fixed z-90 bg-indigo-950 pointer-events-none w-full flex justify-center items-center"
+        className="h-svh fixed z-90 bg-black-950 pointer-events-none w-full flex justify-center items-center"
         data-loader
       >
          <div className="wrapper"><img className="move" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DVD-Video_Logo.svg/512px-DVD-Video_Logo.svg.png"/></div>     
