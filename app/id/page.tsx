@@ -135,7 +135,7 @@ const Html = () => {
         data-loader
       >
        <!-- <div className="w-6 h-6 bg-white animate-ping rounded-full"></div>-->
-      <div class="wrapper"><img class="move" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DVD-Video_Logo.svg/512px-DVD-Video_Logo.svg.png"/></div>     
+      <div className="wrapper"><img className="move" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DVD-Video_Logo.svg/512px-DVD-Video_Logo.svg.png"/></div>     
       </div>
       <div className="h-svh">
         <div className="h-svh uppercase items-center w-full absolute z-60 pointer-events-none px-10 flex justify-center flex-col">
