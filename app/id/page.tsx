@@ -134,7 +134,25 @@ const Html = () => {
         className="h-svh fixed z-90 bg-black pointer-events-none w-full flex justify-center items-center"
         data-loader
       >
-         <div className="wrapper"><img className="move" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DVD-Video_Logo.svg/512px-DVD-Video_Logo.svg.png"/></div>     
+         <div className="wrapper">
+           <img className="move" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DVD-Video_Logo.svg/512px-DVD-Video_Logo.svg.png"/>
+        
+         import Image from 'next/image'
+ 
+function Home() {
+  return (
+    <Image
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DVD-Video_Logo.svg/512px-DVD-Video_Logo.svg.png"
+      alt="Landscape picture"
+      width={800}
+      height={500}
+    />
+  )
+}
+ 
+export default Home
+           
+         </div>     
       </div>
       <div className="h-svh">
         <div className="h-svh uppercase items-center w-full absolute z-60 pointer-events-none px-10 flex justify-center flex-col">
