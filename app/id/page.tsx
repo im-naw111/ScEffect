@@ -103,6 +103,7 @@ const Scene = () => {
     </mesh>
   );
 };
+import Image from 'next/image';
 
 const Html = () => {
   const { isLoading } = useContext(GlobalContext);
@@ -135,7 +136,15 @@ const Html = () => {
         data-loader
       >
          <div className="wrapper">
-           <Image className="move" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DVD-Video_Logo.svg/512px-DVD-Video_Logo.svg.png" /></div>     
+           <Image
+  className="move"
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DVD-Video_Logo.svg/512px-DVD-Video_Logo.svg.png"
+  alt="DVD Logo"
+  width={200}
+  height={200}
+  unoptimized
+/>
+</div>     
       </div>
       <div className="h-svh">
         <div className="h-svh uppercase items-center w-full absolute z-60 pointer-events-none px-10 flex justify-center flex-col">
